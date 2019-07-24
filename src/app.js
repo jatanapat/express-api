@@ -5,7 +5,7 @@ import { version } from '../package.json';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello world!');
+  res.send('Hello world');
 });
 
 // read port from command line (npm start)
